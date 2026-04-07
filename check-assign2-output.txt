@@ -1,6 +1,6 @@
 ---Host/Student info----
 
-Running on Tue Apr  7 04:15:04 PM EDT 2026
+Running on Tue Apr  7 04:50:59 PM EDT 2026
 Run by student - () on host
  Static hostname: comp2137-vm
       Machine ID: ad72fd05e2ff416d89940cf4a6500b25
@@ -19,3 +19,9 @@ Network mgmt deleted
 Network lan created
 Network mgmt created
 Launching openwrt
+Retrieving image: Unpack: 100% (695.84MB/s)                                            Retrieving image: Unpack: 100% (695.84MB/s)                                            Launching server1
+Retrieving image: Unpack: 100% (1.33GB/s)                                          Retrieving image: Unpack: 100% (1.33GB/s)                                          Pushing /home/student/.ssh/id_ed25519.pub to /home/remoteadmin/.ssh/id_ed25519.pub: 100% (255.05MB/s)                                                                                                      Waiting for server1 restart
+please let the script finish
+---Retrieving assignment2.sh script---
+please let the script finish
+Failed to retrieve assignment2.sh script using URL 'https://github.com/vanshikasaharan2022-bot/COMP2137/raw/main/assignment2.sh'
