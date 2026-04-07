@@ -1,0 +1,21 @@
+---Host/Student info----
+
+Running on Tue Apr  7 04:15:04 PM EDT 2026
+Run by student - () on host
+ Static hostname: comp2137-vm
+      Machine ID: ad72fd05e2ff416d89940cf4a6500b25
+Operating System: Ubuntu 24.04.4 LTS
+a98742121b14ebe6350c4bf8245d0062  ./check-assign2-script.sh - a98742121b14ebe6350c4bf8245d0062  -
+------------------------
+
+---Start of Assignment2.sh Check------
+---Running makecontainers.sh----------
+This script performs many tasks. Please be patient
+To see more about what it is doing as it does it, use the --verbose option
+You may ignore any messages about Open vSwitch or dpkg-preconfigure being unable to re-open stdin
+DO NOT use control-Z when this script is running.
+Network lan deleted
+Network mgmt deleted
+Network lan created
+Network mgmt created
+Launching openwrt
