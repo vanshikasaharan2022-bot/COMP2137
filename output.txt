@@ -1,0 +1,150 @@
+
+==============================================
+  Server Configuration Script - Assignment 2
+  Host: comp2137-vm  |  Tue Apr  7 07:40:26 AM EDT 2026
+==============================================
+
+----------------------------------------------
+ SECTION 1: Network Configuration
+----------------------------------------------
+[0;31m[ERROR][0m Could not detect interface on 192.168.16.x network
+[1;33m[INFO][0m  Updating /etc/hosts...
+[0;32m[OK][0m    /etc/hosts updated
+
+----------------------------------------------
+ SECTION 2: Software Installation
+----------------------------------------------
+[0;32m[OK][0m    apache2 already installed
+[0;32m[OK][0m    apache2 running
+[0;32m[OK][0m    squid already installed
+[0;32m[OK][0m    squid running
+
+----------------------------------------------
+ SECTION 3: User Accounts
+----------------------------------------------
+[0;32m[OK][0m    User dennis exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for dennis
+[0;32m[OK][0m    ed25519 key exists for dennis
+[0;32m[OK][0m    User aubrey exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for aubrey
+[0;32m[OK][0m    ed25519 key exists for aubrey
+[0;32m[OK][0m    User captain exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for captain
+[0;32m[OK][0m    ed25519 key exists for captain
+[0;32m[OK][0m    User snibbles exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for snibbles
+[0;32m[OK][0m    ed25519 key exists for snibbles
+[0;32m[OK][0m    User brownie exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for brownie
+[0;32m[OK][0m    ed25519 key exists for brownie
+[0;32m[OK][0m    User scooter exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for scooter
+[0;32m[OK][0m    ed25519 key exists for scooter
+[0;32m[OK][0m    User sandy exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for sandy
+[0;32m[OK][0m    ed25519 key exists for sandy
+[0;32m[OK][0m    User perrier exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for perrier
+[0;32m[OK][0m    ed25519 key exists for perrier
+[0;32m[OK][0m    User cindy exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for cindy
+[0;32m[OK][0m    ed25519 key exists for cindy
+[0;32m[OK][0m    User tiger exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for tiger
+[0;32m[OK][0m    ed25519 key exists for tiger
+[0;32m[OK][0m    User yoda exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for yoda
+[0;32m[OK][0m    ed25519 key exists for yoda
+[0;32m[OK][0m    dennis already in sudo group
+[0;32m[OK][0m    Professor key already exists
+
+==============================================
+  All done! Tue Apr  7 07:40:31 AM EDT 2026
+==============================================
+#!/bin/bash
+
+==============================================
+  Server Configuration Script - Assignment 2
+  Host: comp2137-vm  |  Tue Apr  7 07:40:31 AM EDT 2026
+==============================================
+
+----------------------------------------------
+ SECTION 1: Network Configuration
+----------------------------------------------
+[0;31m[ERROR][0m Could not detect interface on 192.168.16.x network
+[1;33m[INFO][0m  Updating /etc/hosts...
+[0;32m[OK][0m    /etc/hosts updated
+
+----------------------------------------------
+ SECTION 2: Software Installation
+----------------------------------------------
+[0;32m[OK][0m    apache2 already installed
+[0;32m[OK][0m    apache2 running
+[0;32m[OK][0m    squid already installed
+[0;32m[OK][0m    squid running
+
+----------------------------------------------
+ SECTION 3: User Accounts
+----------------------------------------------
+[0;32m[OK][0m    User dennis exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for dennis
+[0;32m[OK][0m    ed25519 key exists for dennis
+[0;32m[OK][0m    User aubrey exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for aubrey
+[0;32m[OK][0m    ed25519 key exists for aubrey
+[0;32m[OK][0m    User captain exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for captain
+[0;32m[OK][0m    ed25519 key exists for captain
+[0;32m[OK][0m    User snibbles exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for snibbles
+[0;32m[OK][0m    ed25519 key exists for snibbles
+[0;32m[OK][0m    User brownie exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for brownie
+[0;32m[OK][0m    ed25519 key exists for brownie
+[0;32m[OK][0m    User scooter exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for scooter
+[0;32m[OK][0m    ed25519 key exists for scooter
+[0;32m[OK][0m    User sandy exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for sandy
+[0;32m[OK][0m    ed25519 key exists for sandy
+[0;32m[OK][0m    User perrier exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for perrier
+[0;32m[OK][0m    ed25519 key exists for perrier
+[0;32m[OK][0m    User cindy exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for cindy
+[0;32m[OK][0m    ed25519 key exists for cindy
+[0;32m[OK][0m    User tiger exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for tiger
+[0;32m[OK][0m    ed25519 key exists for tiger
+[0;32m[OK][0m    User yoda exists
+usermod: no changes
+[0;32m[OK][0m    RSA key exists for yoda
+[0;32m[OK][0m    ed25519 key exists for yoda
+[0;32m[OK][0m    dennis already in sudo group
+[0;32m[OK][0m    Professor key already exists
+
+==============================================
+  All done! Tue Apr  7 07:40:35 AM EDT 2026
+==============================================
+
