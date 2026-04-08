@@ -1,2 +1,0 @@
-Error: Failed instance creation: Failed getting remote image info: Failed getting image: The requested image couldn't be found
-makecontainers.sh: Failed to create openwrt container!
