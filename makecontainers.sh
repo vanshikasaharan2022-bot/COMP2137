@@ -350,7 +350,7 @@ $mgmtnetnum.2 openwrt-mgmt
     ssh-keygen -q -H >/dev/null 2>/dev/null
 
     echoverbose "Adding remote admin user '$remoteadmin' to $container"
-    incus exec "$container" -- useradd -m -c "SSH remote admin access account" -s /bin/bash -o -u 0 "$remoteadmin"
+    incus exec "$container" -- useradd -m -c "SSH remote admin access account" -s /bin/bash "$remoteadmin"
     incus exec "$container" mkdir "/home/$remoteadmin/.ssh"
     incus exec "$container" chmod 700 "/home/$remoteadmin/.ssh"
     incus file push ~/.ssh/id_ed25519.pub "$container/home/$remoteadmin/.ssh/"
